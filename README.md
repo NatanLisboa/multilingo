@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-# code-with-quarkus
+# multilingo
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
-
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+API based on Duolingo that uses Quarkus v3.6.5 and Clean Architecture concepts 
 
 ## Running the application in dev mode
 
@@ -44,18 +41,4 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 ./mvnw package -Dnative -Dquarkus.native.container-build=true
 ```
 
-You can then execute your native executable with: `./target/code-with-quarkus-1.0.0-SNAPSHOT-runner`
-
-If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
-
-## Provided Code
-
-### RESTEasy Reactive
-
-Easily start your Reactive RESTful Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
-=======
-# multilingo
-API based on Duolingo that uses Quarkus v3.6.5 and Clean Architecture concepts 
->>>>>>> e6b3e79c05dcc1b4cfb1654891b2b3421fec7274
+You can then execute your native executable with: `./target/multilingo-1.0.0-SNAPSHOT-runner`
